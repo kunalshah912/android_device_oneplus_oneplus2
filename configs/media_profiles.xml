@@ -47,7 +47,7 @@
 <!ELEMENT EncoderOutputFileFormat EMPTY>
 <!ATTLIST EncoderOutputFileFormat name (mp4|3gp) #REQUIRED>
 <!ELEMENT VideoEncoderCap EMPTY>
-<!ATTLIST VideoEncoderCap name (h264|h263|m4v|wmv) #REQUIRED>
+<!ATTLIST VideoEncoderCap name (hevc|h264|h263|m4v|wmv) #REQUIRED>
 <!ATTLIST VideoEncoderCap enabled (true|false) #REQUIRED>
 <!ATTLIST VideoEncoderCap minBitRate CDATA #REQUIRED>
 <!ATTLIST VideoEncoderCap maxBitRate CDATA #REQUIRED>
@@ -373,7 +373,7 @@
             channels="2" />
     </EncoderProfile>
 
-        <!-- CAMCORDER_QUALITY_HIGH_SPEED_LOW/720P : 720p@120fps; 27.0 Mbps -->
+        <!-- 720p@120fps; 27.0 Mbps -->
         <EncoderProfile quality="highspeedlow" fileFormat="mp4" duration="30">
             <Video codec="hevc"
                    bitRate="27000000"
@@ -387,7 +387,7 @@
                    channels="2" />
         </EncoderProfile>
 
-        <!-- CAMCORDER_QUALITY_HIGH_SPEED_HIGH/720P : 720p@120fps; 27.0 Mbps -->
+        <!-- 720p@120fps; 27.0 Mbps -->
         <EncoderProfile quality="highspeedhigh" fileFormat="mp4" duration="30">
             <Video codec="hevc"
                    bitRate="27000000"
@@ -414,7 +414,7 @@
                    channels="2" />
         </EncoderProfile>
 
-        <!-- CAMCORDER_QUALITY_HIGH_SPEED_HIGH/1080P : 1080p@60fps; 34.0 Mbps -->
+        <!-- 1080p@60fps; 34.0 Mbps -->
         <EncoderProfile quality="highspeed1080p" fileFormat="mp4" duration="30">
             <Video codec="hevc"
                    bitRate="34000000"
@@ -428,7 +428,7 @@
                    channels="2" />
         </EncoderProfile>
 
-        <!-- CAMCORDER_QUALITY_HIGH_SPEED_LOW/720P : 720p@120fps; 27.0 Mbps -->
+        <!-- 720p@120fps; 27.0 Mbps -->
         <EncoderProfile quality="highspeedlow" fileFormat="mp4" duration="30">
             <Video codec="hevc"
                    bitRate="27000000"
@@ -442,7 +442,7 @@
                    channels="2" />
         </EncoderProfile>
 
-        <!-- CAMCORDER_QUALITY_HIGH_SPEED_HIGH/720P : 720p@120fps; 27.0 Mbps -->
+        <!-- 720p@120fps; 27.0 Mbps -->
         <EncoderProfile quality="highspeedhigh" fileFormat="mp4" duration="30">
             <Video codec="hevc"
                    bitRate="27000000"
@@ -469,7 +469,7 @@
                    channels="2" />
         </EncoderProfile>
 
-        <!-- CAMCORDER_QUALITY_HIGH_SPEED_HIGH/1080P : 1080p@60fps; 34.0 Mbps -->
+        <!-- 1080p@60fps; 34.0 Mbps -->
         <EncoderProfile quality="highspeed1080p" fileFormat="mp4" duration="30">
             <Video codec="hevc"
                    bitRate="34000000"
