@@ -108,6 +108,12 @@ PRODUCT_PACKAGES += \
     libbt-vendor \
     android.hardware.bluetooth@1.0-impl
 
+# ANT+
+#PRODUCT_PACKAGES += \
+#    AntHalService \
+#    com.dsi.ant.antradio_library \
+#    libantradio
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.device@3.2-impl \
@@ -304,6 +310,11 @@ PRODUCT_PACKAGES += \
     wificond \
     wpa_supplicant \
     wpa_supplicant.conf
+
+#PRODUCT_PACKAGES += \
+#    ipacm \
+#    ipacm-diag \
+#    IPACM_cfg.xml \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/hostapd.accept:system/etc/hostapd/hostapd.accept \
