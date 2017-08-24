@@ -104,6 +104,12 @@ PRODUCT_PACKAGES += \
     libbt-vendor \
     android.hardware.bluetooth@1.0-impl
 
+# ANT+
+#PRODUCT_PACKAGES += \
+#    AntHalService \
+#    com.dsi.ant.antradio_library \
+#    libantradio
+
 # Camera
 PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
