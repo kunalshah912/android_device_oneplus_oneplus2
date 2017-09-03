@@ -69,17 +69,22 @@ PRODUCT_CHARACTERISTICS := nosdcard
 
 # Audio
 PRODUCT_PACKAGES += \
-    audiod \
     audio.a2dp.default \
     audio.primary.msm8994 \
     audio.r_submix.default \
     audio.usb.default \
-    audio_policy.msm8994 \
     libaudio-resampler \
     libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    tinymix
+    libvolumelistener \
+    libqcomvoiceprocessingdescriptors
+
+PRODUCT_PACKAGES += \
+    android.hardware.audio@2.0-impl \
+    android.hardware.audio.effect@2.0-impl \
+    android.hardware.broadcastradio@1.0-impl \
+    android.hardware.soundtrigger@2.0-impl
 
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
