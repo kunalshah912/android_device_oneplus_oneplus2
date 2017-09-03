@@ -1,4 +1,7 @@
-# system.prop for OnePlus2
+# system.prop for OnePlus2 
+persist.service.adb.enable=1
+persist.service.debuggable=1
+persist.sys.usb.config=mtp,adb
 
 # Audio
 audio_hal.period_size=192
