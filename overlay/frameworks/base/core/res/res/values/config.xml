@@ -401,8 +401,8 @@
         <item>"/system/framework/arm64/boot-core-libart.oat"</item>
    </string-array>
 
-    <!-- Enable blur support -->
-    <bool name="config_uiBlurEnabled">true</bool>
+    <!-- Enable blur support 
+    <bool name="config_uiBlurEnabled">true</bool> -->
 
     <!-- Whether notify fingerprint client of successful cancelled authentication 
     <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool> -->
