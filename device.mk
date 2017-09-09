@@ -261,6 +261,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.midi.xml:system/etc/permissions/android.software.midi.xml
 
+# Netutils
+ PRODUCT_PACKAGES += \
+     netutils-wrapper-1.0
+
 # Power
 PRODUCT_PACKAGES += \
     power.msm8994
