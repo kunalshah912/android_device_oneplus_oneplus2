@@ -205,3 +205,12 @@ TARGET_RECOVERY_FSTAB := $(PLATFORM_PATH)/rootdir/etc/fstab.qcom
 
 # inherit from the proprietary version
 -include vendor/oneplus/oneplus2/BoardConfigVendor.mk
+
+#USE_DEVICE_SPECIFIC_MEDIA := true
+#DEVICE_SPECIFIC_MEDIA_PATH := hardware/qcom/media/msm8994
+
+#USE_DEVICE_SPECIFIC_AUDIO := true
+#DEVICE_SPECIFIC_AUDIO_PATH := hardware/qcom/audio
+
+#USE_DEVICE_SPECIFIC_DISPLAY := true
+#DEVICE_SPECIFIC_DISPLAY_PATH := hardware/qcom/display/msm8994

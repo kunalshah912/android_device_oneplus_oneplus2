@@ -312,9 +312,9 @@ PRODUCT_PACKAGES += \
 
 # WiFi
 PRODUCT_PACKAGES += \
-    ipacm \
-    ipacm-diag \
-    IPACM_cfg.xml \
+#    ipacm \
+#    ipacm-diag \
+#    IPACM_cfg.xml \
     hostapd \
     libwpa_client \
     wificond \
@@ -332,3 +332,9 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from oppo-common
 #$(call inherit-product, device/oppo/common/common.mk)
+
+# ADB
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    sys.usb.config=mtp,adb \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0
